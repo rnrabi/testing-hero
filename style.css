@@ -8,7 +8,7 @@
 }
 
 .box{
-    transform:translate(85px , 80px);
+    /* transform:translate(85px , 80px); */
     transform-origin: center;
     /* width:500px; */
     background-color: rgb(112, 8, 112);
@@ -36,8 +36,38 @@ h2{
 }
 
 
+.criket{
+    width: 1100px;
+    height: 500px;
+    border: 1px solid gold;
+}
+.criket:hover img{
+    transform: rotate(-50deg);
+    transform-origin: top;
+    transition: transform 0.2s ease-in;
+}
 
+/* এটা অংশ কাজ করে না । বলের translate */
 
+/* .criket:hover .ball{
+    transform: translate(200px);
+} */
 
+img{
+     width:300px;
+    height:441px; 
+   
+}
+
+.ball{
+    width:50px;
+    height:50px;
+    border-radius: 25px;
+    background-color: red;
+    position: relative;
+    left:450px;
+    bottom:220px;
+    
+}
 
 
